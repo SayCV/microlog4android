@@ -5,7 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/microlog4android.iml" filepath="$PROJECT_DIR$/microlog4android.iml" />
       <module fileurl="file://$PROJECT_DIR$/microlog4android-core/microlog4android-core.iml" filepath="$PROJECT_DIR$/microlog4android-core/microlog4android-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/microlog4android-core-tests/microlog4android-core-tests.iml" filepath="$PROJECT_DIR$/microlog4android-core-tests/microlog4android-core-tests.iml" />
-      <module fileurl="file://$PROJECT_DIR$/microlog4android-integration-tests/microlog4android-integration-tests.iml" filepath="$PROJECT_DIR$/microlog4android-integration-tests/microlog4android-integration-tests.iml" />
       <module fileurl="file://$PROJECT_DIR$/microlog4android-slf4j-impl/microlog4android-slf4j-impl.iml" filepath="$PROJECT_DIR$/microlog4android-slf4j-impl/microlog4android-slf4j-impl.iml" />
     </modules>
   </component>
