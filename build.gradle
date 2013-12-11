@@ -34,8 +34,12 @@ jar {
 	from configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
 }
 
-tempJarFiles = buildDirName + '/tmp-classes'
-tempDistFolder = buildDirName + '/tmp-dist'
+/* `buildDirName` was deprecated long ago and was eventually removed. Use `buildDir` instead. */
+// Change the buildDir of the current project to /tmp/ (which is mounted on RAM using tmpfs)
+// buildDir = new File("/tmp/gradle/" + project.name);
+tempJarFiles = new File(project.buildDir.name + '/tmp-classes')
+
+tempDistFolder = new File(project.buildDir.name + '/tmp-dist')
 
 task unpackFatJar(dependsOn: jar) << {
 	copy {
