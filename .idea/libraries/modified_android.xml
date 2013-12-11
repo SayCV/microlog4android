@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="modified-android">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/jar/modified-android.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="src" path="src/test/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER" exported="true"/>
+	<classpathentry kind="lib" path="D:/work_coding/bitbucket-SayCV-Hosting/repo_SayCV_Android/microlog4android/microlog4android-integration-tests/libs/microlog4android-0.5.0.jar" exported="true"/>
+</classpath>

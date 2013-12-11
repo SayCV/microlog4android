@@ -194,9 +194,12 @@ echo SayCV_MXE:
 echo SayCV_MXE: Checked Requirements Finished.
 
 echo SayCV_MXE: Generate modified version of the android.jar file in the lib-folder.
-:::bash.exe --login -c "gradle -b build-android_lib.gradle"
+bash.exe --login -c "gradle -b build-android_lib.gradle"
 
 gradle eclipse
+
+:::gradle
+
 if "%errorlevel%"=="0" ( 
 	echo Done Sucessful.
 	echo SayCV_MXE: Start 32bit.
